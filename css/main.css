@@ -1,0 +1,53 @@
+
+body {
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #3F3F3F;
+    color: white;
+}
+
+
+.me-card {
+    align-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #868e96;
+}
+
+.progress {
+    background-color: #3F3F3F;
+}
+
+
+.me-img {
+    margin: 0 auto;
+    width: 250px;
+}
+
+.cv {
+    margin-top: 30px;
+}
+
+.bar {
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.top-row {
+    margin-bottom: 20px;
+}
+
+.top-card {
+    height: 100%;
+}
+
+.logo-riviera {
+    height: 100px;
+}
+
+.github {
+    margin-top: 40px;
+}
