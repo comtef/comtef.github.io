@@ -6,7 +6,6 @@ body {
     color: white;
 }
 
-
 .me-card {
     align-content: center;
     padding: 20px;
@@ -15,11 +14,6 @@ body {
 .card {
     background-color: #868e96;
 }
-
-.progress {
-    background-color: #3F3F3F;
-}
-
 
 .me-img {
     margin: 0 auto;
@@ -31,10 +25,20 @@ body {
     margin-top: 30px;
 }
 
-.bar {
-    height: 30px;
-    font-size: 20px;
-    margin-bottom: 10px;
+.skill-list {
+    padding: 0;
+}
+
+.skill-list li {
+    font-size: 23px;
+    list-style-type: none;
+    line-height: 40px
+}
+
+.skill-list li:before {
+    font-family: 'FontAwesome';
+    content:"\f046";
+    margin-right: 10px
 }
 
 .top-row {
@@ -49,6 +53,6 @@ body {
     height: 100px;
 }
 
-.github {
+.button-link {
     margin-top: 40px;
 }
