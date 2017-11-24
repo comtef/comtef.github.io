@@ -17,8 +17,16 @@ body {
 
 .me-img {
     margin: 0 auto;
-    width: 250px;
+    width: 150px;
     border: 3px solid white;
+}
+
+@media (min-width: 576px) {
+    .me-img {
+        margin: 0 auto;
+        width: 250px;
+        border: 3px solid white;
+    }
 }
 
 .cv {
@@ -32,13 +40,14 @@ body {
 .skill-list li {
     font-size: 23px;
     list-style-type: none;
-    line-height: 40px
+    line-height: 40px;
 }
 
 .skill-list li:before {
     font-family: 'FontAwesome';
-    content:"\f046";
-    margin-right: 10px
+    content: "\f046";
+    margin-right: 10px;
+    color: #007bff;
 }
 
 .top-row {
